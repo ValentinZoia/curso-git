@@ -1,3 +1,6 @@
+![1675016970735.png](Git%20y%20Github%207d52d252b5454b4ca41664f2cf38963c/1675016970735.png)
+
+![Captura de pantalla 2024-06-22 185207.png](Git%20y%20Github%207d52d252b5454b4ca41664f2cf38963c/Captura_de_pantalla_2024-06-22_185207.png)
 # Git y Github
 
 ## Qué es Git?
