@@ -2,47 +2,26 @@
 
 # Git y Github
 ## Índice
-
-- Qué es Git?
-    - [Qué es Git?](https://www.notion.so/Git-y-Github-7d52d252b5454b4ca41664f2cf38963c?pvs=21)
-- Comandos Básicos
-    - [Comandos Básicos](https://www.notion.so/Git-y-Github-7d52d252b5454b4ca41664f2cf38963c?pvs=21)
-- Inicializar proyecto en git
-    - [Inicializar proyecto en git](https://www.notion.so/Git-y-Github-7d52d252b5454b4ca41664f2cf38963c?pvs=21)
-- Git Status, Add y Commit
-    - [Git Status, Add y Commit](https://www.notion.so/Git-y-Github-7d52d252b5454b4ca41664f2cf38963c?pvs=21)
-- Git Ignore
-    - [Git Ignore](https://www.notion.so/Git-y-Github-7d52d252b5454b4ca41664f2cf38963c?pvs=21)
-- Git diff
-    - [Git diff](https://www.notion.so/Git-diff-cc4322bb6a0d42589d22ba2f571322a6?pvs=21)
-- Git log
-    - [Git log](https://www.notion.so/Git-log-c48076511a79427fbeee0291edb58a57?pvs=21)
-- Brench / rama
-    - [Brench / rama](https://www.notion.so/Brench-rama-df1162b7c328499e98b0e71de38c98c8?pvs=21)
-- Git push, git pull
-    - [Git push, git pull](https://www.notion.so/Git-push-git-pull-f3eb7233b3af4cf280ede9e8c7531ba7?pvs=21)
-- Enlazar a repositorio remoto
-    - [Enlazar a repositorio remoto](https://www.notion.so/Enlazar-a-repositorio-remoto-c0fd1bf2030c4f9facf42291fa4654d5?pvs=21)
-- Git tag, git switch
-    - [Git tag, git switch](https://www.notion.so/Git-tag-git-switch-a5f703e46a5347c0b40aaf689d477c8c?pvs=21)
-- Navegar entre commits y tag
-    - [Navegar entre commits y tag](https://www.notion.so/Navegar-entre-commits-y-tag-6f8fcc7c360949d2861aad96bd46dd80?pvs=21)
-- Git stash y Git stash pop
-    - [Git stash y Git stash pop](https://www.notion.so/Git-stash-y-Git-stash-pop-3e4ad6fe1fab453399da72f13895cbad?pvs=21)
-- Eliminar Ramas (Branches)
-    - [Eliminar Ramas (Branches)](https://www.notion.so/Eliminar-Ramas-Branches-3408fe9505dc4a2c96f2a090b6ea0ae7?pvs=21)
-- Git Fetch
-    - [Git Fetch](https://www.notion.so/Git-Fetch-67a291f949e24f1a875c33021dd1fbae?pvs=21)
-- Git Reset
-    - [Git Reset](https://www.notion.so/Git-Reset-df9ced8ebcb74bfe928a85f83a9c706a?pvs=21)
-- Git Clone
-    - [Git Clone](https://www.notion.so/Git-Clone-a583050147204dafb926aa153aa67a7c?pvs=21)
-- Git merge
-    - [Git merge](https://www.notion.so/Git-merge-f82b9a33bc704ba5912d04d3c43d32f6?pvs=21)
-- Fork & Pull Requests
-    - [Fork & Pull Requests](https://www.notion.so/Fork-Pull-Requests-7207d4bd93914488aeaffb418db5bacd?pvs=21)
-- Cuestionario Git y Github
-    - [Cuestionario Git y Github](https://www.notion.so/Cuestionario-Git-y-Github-ddf48527e26040ca9cc540eacf2a4e6b?pvs=21)
+- [Qué es Git?](#qué-es-git)
+ - [Comandos Básicos](#comandos-básicos)
+ - [Inicializar proyecto en Git](#inicializar-proyecto-en-git)
+  - [Git Status, Add y Commit](#git-status-add-y-commit)
+   - [Git Ignore](#git-ignore) 
+   - [Git diff](#git-diff)
+    - [Git log](#git-log)
+    - [Branch / Rama](#branch--rama) 
+   - [Git push, Git pull](#git-push-git-pull)
+    - [Enlazar a repositorio remoto](#enlazar-a-repositorio-remoto) 
+   - [Git tag, Git switch](#git-tag-git-switch)
+    - [Navegar entre commits y tags](#navegar-entre-commits-y-tags)
+    - [Git stash y Git stash pop](#git-stash-y-git-stash-pop) 
+   - [Eliminar Ramas (Branches)](#eliminar-ramas-branches) 
+   - [Git Fetch](#git-fetch)
+    - [Git Reset](#git-reset)
+    - [Git Clone](#git-clone)
+    - [Git merge](#git-merge)
+    - [Fork & Pull Requests](#fork--pull-requests) 
+   - [Cuestionario Git y Github](#cuestionario-git-y-github)
 
 ## Qué es Git?
 
