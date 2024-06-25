@@ -1130,3 +1130,263 @@ Realizar un fork en GitHub es bastante sencillo:
 Después de realizar un fork y realizar cambios en tu copia del repositorio, puedes colaborar con el proyecto original enviando un pull request. Un pull request es una solicitud para que el propietario del repositorio original considere y, potencialmente, incorpore tus cambios en su proyecto principal.
 
 ![Captura de pantalla 2024-06-23 165822.png](Git%20y%20Github%207d52d252b5454b4ca41664f2cf38963c/Captura_de_pantalla_2024-06-23_165822.png)
+
+## Cuestionario Git y Github
+
+**Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:**
+
+Elige la respuesta correcta
+
+A. Incorrecto: Gitk es una herramienta sumamente profesional que nos ayuda a aprender Git más rápido y sin necesidad de comandos complejos.
+
+B. No todos los sistemas operativos soportan Gitk. Si queremos que todo el equipo pueda trabajar debemos usar Git.
+
+C. A los desarrolladores profesionales les gusta más Git que Gitk (cuestión de gustos).
+
+D. Debemos aprender Git con sus comandos de la terminal para resolver problemas o conflictos más avanzados. Gitk funciona bien, pero no nos permite realizar operaciones tan complejas.
+
+**Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?**
+
+Elige la respuesta correcta
+
+A. images/jquery.jpg
+
+B. javascript/jquery.js
+
+C. images/jquery.js
+
+D. images/java.jsp
+
+**Si usas:**
+
+`git config --global alias.platzi "shortlog"`
+
+¿Cómo invocar ese comando?
+
+Elige la respuesta correcta
+
+A. `git platzi`
+
+B. `git alias.platzi`
+
+C. `./platzi`
+
+D. `git **global** platzi`
+
+E. `git **shortlog** platzi`
+
+**Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:**
+
+Elige la respuesta correcta
+
+A. Repositorio local, en una rama nueva “stash”.
+
+B. Disco duro, en un nuevo commit.
+
+C. Memoria temporal, volviendo al estado del último commit.
+
+D. Repositorio remoto, en una rama nueva “stash”.
+
+**¿Qué crean los tags en Git?**
+
+Elige la respuesta correcta
+
+A. Etiquetas para luego buscar qué tipo de archivos estaba usando y sus categorías.
+
+B. Ramas separadas de la master en el repositorio donde trabajas.
+
+C. Versiones descargables y puntos únicos en una rama de un repositorio.
+
+**¿Puedo crear ramas en GitHub que no tenga en mi repositorio local?**
+
+Elige la respuesta correcta
+
+A. Sí, cuando usas el cliente oficial nada más.
+
+B. No, todas las ramas de GitHub llegan a tu repositorio local al clonar el repo.
+
+C. No, las ramas solo existen en un repositorio local, no en el remoto.
+
+D. Sí, tú decides si traer esas ramas a tu repositorio local.
+
+**¿El HEAD en una rama es?**
+
+Elige la respuesta correcta
+
+A. El apuntador al estado actual del repositorio basado en la rama en la que estoy trabajando.
+
+B. El inicio de una rama.
+
+C. El apuntador al estado inicial de un repositorio en la rama master.
+
+D. El inicio de un repositorio.
+
+**Un repositorio remoto y un repositorio local:**
+
+Elige la respuesta correcta
+
+A. Tienen las mismas ramas dado que uno es un reflejo del otro.
+
+B. Tienen ramas similares dependiendo de cuáles haya enviado entre uno y otro.
+
+C. Tienen ramas 100% diferentes dado que cada uno es distinto.
+
+**Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?**
+
+Elige la respuesta correcta
+
+A. .rsa
+
+B. .pub
+
+C. .ssl
+
+D. .ssh
+
+E. Ninguna extensión
+
+**¿GitHub es?**
+
+Elige la respuesta correcta
+
+A. Un sistema online de manejo de repositorios de Git.
+
+B. Una red social de programadores.
+
+C. Un sitio web de descarga de librerías y proyectos open source.
+
+D. Un software de control de versiones.
+
+**Un pull request es:**
+
+Elige la respuesta correcta
+
+A. Un merge opcional entre repositorios locales.
+
+B. Un cambio sugerido a un repositorio que el dueño del repositorio puede autorizar y hacer merge a la rama que elija.
+
+C. Una petición de traer a mi local el contenido de un repositorio remoto.
+
+D. Un merge forzado de mi master al master de producción.
+
+**Cuando hago un *fork* de un proyecto en GitHub, ¿lo que logro es?**
+
+Elige la respuesta correcta
+
+A. Copiar la versión más reciente del master de un repositorio, sin su historia anterior y así empezar desde cero mi propio proyecto.
+
+B. Copiar la rama master de un repositorio público y toda su historia anterior, pero no otras ramas a menos que las especifique.
+
+C. Agregarme como colaborador de un repositorio remoto y poder hacer push/pull y modificaciones como colaborador a ese repositorio.
+
+D. Copiar un repositorio público a mis repositorios en GitHub, con todas sus ramas e historia anterior.
+
+**¿Las llaves públicas son?**
+
+Elige la respuesta correcta
+
+A. Sistemas de cifrado básicos donde la misma llave puede cifrar y descifrar un mensaje.
+
+B. Fáciles de compartir y sus mensajes imposibles de descifrar.
+
+C. No compartibles y fáciles de descifrar.
+
+D. Imposibles de descifrar e imposibles de compartir.
+
+**¿Cuándo deberías usar cherry-pick?**
+
+Elige la respuesta correcta
+
+A. Cuando quiero los cambios de un commit pasado sin dañar la historia de la rama.
+
+B. Al momento de fusionar un punto de una rama distinta al estado actual de la rama donde estoy.
+
+C. Al traer un archivo viejo de un commit anterior, pero nada más.
+
+D. Cuando quiero volver la rama a un punto del pasado y eso volverlo el HEAD.
+
+**¿Cuál es la diferencia entre git rm y git reset HEAD?**
+
+Elige la respuesta correcta
+
+A. git reset head saca los archivos del repositorio. git rm saca los archivos de Staging.
+
+B. Son lo mismo. git rm solo es un alias de git reset head.
+
+C. git rm borra todos los commits y el historial donde aparezcan los archivos. git reset head también, pero guarda los últimos cambios en Staging.
+
+D. git rm saca los archivos del repositorio y (opcionalmente) del disco duro. git reset head saca los archivos de Staging, pero no del disco duro.
+
+E. git reset head borra el último commit. git rm también, pero guarda los últimos cambios en Staging.
+
+**Cuando hay un conflicto entre archivos lo mejor es:**
+
+Elige la respuesta correcta
+
+A. Crear una rama de experimento, arreglar ahí el conflicto, hacer commit y luego merge con la rama original.
+
+B. Sacar de staging los archivos, recuperar de otra rama la versión buena, reagregar a staging y commit.
+
+C. Analizar los conflictos tal como los reportó Git y elegir los cambios finales, luego commit.
+
+D. Borrar los conflictos, hacer checkout o rebase, cambiar de rama o recuperar un commit anterior.
+
+**Los cambios a un archivo que están en “staging” están en:**
+
+Elige la respuesta correcta
+
+A. Un área temporal en memoria antes de llegar al repositorio.
+
+B. En un servidor temporal de pruebas.
+
+C. Ya en el repositorio, rastreados y confirmados.
+
+D. Solo en tu disco, no están siendo rastreados por Git.
+
+**El dueño de un repositorio al ver un pull request puede:**
+
+Elige la respuesta correcta
+
+A. Publicarlo en el home de GitHub Pages.
+
+B. Editarlo, aceptarlo, darle merge, comentarlo para pedir cambios.
+
+C. Rechazarlo o aceptarlo, pero nada más.
+
+D. Pedir cambios, solicitar autorización de merge.
+
+**¿Cuándo deberías hacer un merge?**
+
+Elige la respuesta correcta
+
+A. Cuando quiero borrar una rama.
+
+B. Cuando quiero fusionar los cambios de una rama con otra.
+
+C. Cuando quiero enviar a producción un cambio final.
+
+D. Cuando quiero combinar un repositorio remoto con uno local.
+
+**En un repositorio público en GitHub, ¿qué pueden hacer los colaboradores?**
+
+Elige la respuesta correcta
+
+A. Solo hacer pull requests y con permiso del dueño hacer push/pull, crear ramas, etc.
+
+B. Ver el código y clonarlo, pero no editarlo.
+
+C. Crear ramas y trabajar sobre ellas, pero no sobre master.
+
+D. Hacer cambios al repositorio, hacer push/pull, crear ramas, etc.
+
+**¿Qué guarda Git?**
+
+Elige la respuesta correcta
+
+A. Git no guarda nada. Es sólo una referencia.
+
+B. Los textos de mensajes a los que hago “commit”.
+
+C. Los cambios de los archivos de un proyecto.
+
+D. Los archivos completos por cada versión de un proyecto.
