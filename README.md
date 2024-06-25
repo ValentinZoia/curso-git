@@ -1133,260 +1133,257 @@ Después de realizar un fork y realizar cambios en tu copia del repositorio, pue
 
 ## Cuestionario Git y Github
 
-**Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:**
+### **1. Es mejor aprender a manejar Git con la terminal antes de hacerlo con herramientas visuales como Gitk porque:**
 
 Elige la respuesta correcta
 
-A. Incorrecto: Gitk es una herramienta sumamente profesional que nos ayuda a aprender Git más rápido y sin necesidad de comandos complejos.
+- [ ] Incorrecto: Gitk es una herramienta sumamente profesional que nos ayuda a aprender Git más rápido y sin necesidad de comandos complejos.
 
-B. No todos los sistemas operativos soportan Gitk. Si queremos que todo el equipo pueda trabajar debemos usar Git.
+- [ ] No todos los sistemas operativos soportan Gitk. Si queremos que todo el equipo pueda trabajar debemos usar Git.
 
-C. A los desarrolladores profesionales les gusta más Git que Gitk (cuestión de gustos).
+- [ ] A los desarrolladores profesionales les gusta más Git que Gitk (cuestión de gustos).
 
-D. Debemos aprender Git con sus comandos de la terminal para resolver problemas o conflictos más avanzados. Gitk funciona bien, pero no nos permite realizar operaciones tan complejas.
+- [ ] Debemos aprender Git con sus comandos de la terminal para resolver problemas o conflictos más avanzados. Gitk funciona bien, pero no nos permite realizar operaciones tan complejas.
 
-**Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?**
-
-Elige la respuesta correcta
-
-A. images/jquery.jpg
-
-B. javascript/jquery.js
-
-C. images/jquery.js
-
-D. images/java.jsp
-
-**Si usas:**
-
-`git config --global alias.platzi "shortlog"`
-
-¿Cómo invocar ese comando?
+### **2. Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?**
 
 Elige la respuesta correcta
 
-A. `git platzi`
+- [ ] images/jquery.jpg
 
-B. `git alias.platzi`
+- [ ] javascript/jquery.js
 
-C. `./platzi`
+- [ ] images/jquery.js
 
-D. `git **global** platzi`
+- [ ] images/java.jsp
 
-E. `git **shortlog** platzi`
-
-**Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:**
+### **3. Si usas:** `git config --global alias.platzi "shortlog"` **¿Cómo invocar ese comando?**
 
 Elige la respuesta correcta
 
-A. Repositorio local, en una rama nueva “stash”.
+- [ ] `git platzi`
 
-B. Disco duro, en un nuevo commit.
+- [ ] `git alias.platzi`
 
-C. Memoria temporal, volviendo al estado del último commit.
+- [ ] `./platzi`
 
-D. Repositorio remoto, en una rama nueva “stash”.
+- [ ] `git **global** platzi`
 
-**¿Qué crean los tags en Git?**
+- [ ] `git **shortlog** platzi`
 
-Elige la respuesta correcta
-
-A. Etiquetas para luego buscar qué tipo de archivos estaba usando y sus categorías.
-
-B. Ramas separadas de la master en el repositorio donde trabajas.
-
-C. Versiones descargables y puntos únicos en una rama de un repositorio.
-
-**¿Puedo crear ramas en GitHub que no tenga en mi repositorio local?**
+### **4. Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en:**
 
 Elige la respuesta correcta
 
-A. Sí, cuando usas el cliente oficial nada más.
+- [ ] Repositorio local, en una rama nueva “stash”.
 
-B. No, todas las ramas de GitHub llegan a tu repositorio local al clonar el repo.
+- [ ] Disco duro, en un nuevo commit.
 
-C. No, las ramas solo existen en un repositorio local, no en el remoto.
+- [ ] Memoria temporal, volviendo al estado del último commit.
 
-D. Sí, tú decides si traer esas ramas a tu repositorio local.
+- [ ] Repositorio remoto, en una rama nueva “stash”.
 
-**¿El HEAD en una rama es?**
-
-Elige la respuesta correcta
-
-A. El apuntador al estado actual del repositorio basado en la rama en la que estoy trabajando.
-
-B. El inicio de una rama.
-
-C. El apuntador al estado inicial de un repositorio en la rama master.
-
-D. El inicio de un repositorio.
-
-**Un repositorio remoto y un repositorio local:**
+### **5. ¿Qué crean los tags en Git?**
 
 Elige la respuesta correcta
 
-A. Tienen las mismas ramas dado que uno es un reflejo del otro.
+- [ ] Etiquetas para luego buscar qué tipo de archivos estaba usando y sus categorías.
 
-B. Tienen ramas similares dependiendo de cuáles haya enviado entre uno y otro.
+- [ ] Ramas separadas de la master en el repositorio donde trabajas.
 
-C. Tienen ramas 100% diferentes dado que cada uno es distinto.
+- [ ] Versiones descargables y puntos únicos en una rama de un repositorio.
 
-**Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?**
-
-Elige la respuesta correcta
-
-A. .rsa
-
-B. .pub
-
-C. .ssl
-
-D. .ssh
-
-E. Ninguna extensión
-
-**¿GitHub es?**
+### **6. ¿Puedo crear ramas en GitHub que no tenga en mi repositorio local?**
 
 Elige la respuesta correcta
 
-A. Un sistema online de manejo de repositorios de Git.
+- [ ] Sí, cuando usas el cliente oficial nada más.
 
-B. Una red social de programadores.
+- [ ] No, todas las ramas de GitHub llegan a tu repositorio local al clonar el repo.
 
-C. Un sitio web de descarga de librerías y proyectos open source.
+- [ ] No, las ramas solo existen en un repositorio local, no en el remoto.
 
-D. Un software de control de versiones.
+- [ ] Sí, tú decides si traer esas ramas a tu repositorio local.
 
-**Un pull request es:**
-
-Elige la respuesta correcta
-
-A. Un merge opcional entre repositorios locales.
-
-B. Un cambio sugerido a un repositorio que el dueño del repositorio puede autorizar y hacer merge a la rama que elija.
-
-C. Una petición de traer a mi local el contenido de un repositorio remoto.
-
-D. Un merge forzado de mi master al master de producción.
-
-**Cuando hago un *fork* de un proyecto en GitHub, ¿lo que logro es?**
+### **7. ¿El HEAD en una rama es?**
 
 Elige la respuesta correcta
 
-A. Copiar la versión más reciente del master de un repositorio, sin su historia anterior y así empezar desde cero mi propio proyecto.
+- [ ] El apuntador al estado actual del repositorio basado en la rama en la que estoy trabajando.
 
-B. Copiar la rama master de un repositorio público y toda su historia anterior, pero no otras ramas a menos que las especifique.
+- [ ] El inicio de una rama.
 
-C. Agregarme como colaborador de un repositorio remoto y poder hacer push/pull y modificaciones como colaborador a ese repositorio.
+- [ ] El apuntador al estado inicial de un repositorio en la rama master.
 
-D. Copiar un repositorio público a mis repositorios en GitHub, con todas sus ramas e historia anterior.
+- [ ] El inicio de un repositorio.
 
-**¿Las llaves públicas son?**
-
-Elige la respuesta correcta
-
-A. Sistemas de cifrado básicos donde la misma llave puede cifrar y descifrar un mensaje.
-
-B. Fáciles de compartir y sus mensajes imposibles de descifrar.
-
-C. No compartibles y fáciles de descifrar.
-
-D. Imposibles de descifrar e imposibles de compartir.
-
-**¿Cuándo deberías usar cherry-pick?**
+### **8. Un repositorio remoto y un repositorio local:**
 
 Elige la respuesta correcta
 
-A. Cuando quiero los cambios de un commit pasado sin dañar la historia de la rama.
+- [ ] Tienen las mismas ramas dado que uno es un reflejo del otro.
 
-B. Al momento de fusionar un punto de una rama distinta al estado actual de la rama donde estoy.
+- [ ] Tienen ramas similares dependiendo de cuáles haya enviado entre uno y otro.
 
-C. Al traer un archivo viejo de un commit anterior, pero nada más.
+- [ ] Tienen ramas 100% diferentes dado que cada uno es distinto.
 
-D. Cuando quiero volver la rama a un punto del pasado y eso volverlo el HEAD.
-
-**¿Cuál es la diferencia entre git rm y git reset HEAD?**
+### **9. Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?**
 
 Elige la respuesta correcta
 
-A. git reset head saca los archivos del repositorio. git rm saca los archivos de Staging.
+- [ ] .rsa
 
-B. Son lo mismo. git rm solo es un alias de git reset head.
+- [ ] .pub
 
-C. git rm borra todos los commits y el historial donde aparezcan los archivos. git reset head también, pero guarda los últimos cambios en Staging.
+- [ ] .ssl
 
-D. git rm saca los archivos del repositorio y (opcionalmente) del disco duro. git reset head saca los archivos de Staging, pero no del disco duro.
+- [ ] .ssh
 
-E. git reset head borra el último commit. git rm también, pero guarda los últimos cambios en Staging.
+- [ ] Ninguna extensión
 
-**Cuando hay un conflicto entre archivos lo mejor es:**
-
-Elige la respuesta correcta
-
-A. Crear una rama de experimento, arreglar ahí el conflicto, hacer commit y luego merge con la rama original.
-
-B. Sacar de staging los archivos, recuperar de otra rama la versión buena, reagregar a staging y commit.
-
-C. Analizar los conflictos tal como los reportó Git y elegir los cambios finales, luego commit.
-
-D. Borrar los conflictos, hacer checkout o rebase, cambiar de rama o recuperar un commit anterior.
-
-**Los cambios a un archivo que están en “staging” están en:**
+### **10. ¿GitHub es?**
 
 Elige la respuesta correcta
 
-A. Un área temporal en memoria antes de llegar al repositorio.
+- [ ] Un sistema online de manejo de repositorios de Git.
 
-B. En un servidor temporal de pruebas.
+- [ ] Una red social de programadores.
 
-C. Ya en el repositorio, rastreados y confirmados.
+- [ ] Un sitio web de descarga de librerías y proyectos open source.
 
-D. Solo en tu disco, no están siendo rastreados por Git.
+- [ ] Un software de control de versiones.
 
-**El dueño de un repositorio al ver un pull request puede:**
-
-Elige la respuesta correcta
-
-A. Publicarlo en el home de GitHub Pages.
-
-B. Editarlo, aceptarlo, darle merge, comentarlo para pedir cambios.
-
-C. Rechazarlo o aceptarlo, pero nada más.
-
-D. Pedir cambios, solicitar autorización de merge.
-
-**¿Cuándo deberías hacer un merge?**
+### **11. Un pull request es:**
 
 Elige la respuesta correcta
 
-A. Cuando quiero borrar una rama.
+- [ ] Un merge opcional entre repositorios locales.
 
-B. Cuando quiero fusionar los cambios de una rama con otra.
+- [ ] Un cambio sugerido a un repositorio que el dueño del repositorio puede autorizar y hacer merge a la rama que elija.
 
-C. Cuando quiero enviar a producción un cambio final.
+- [ ] Una petición de traer a mi local el contenido de un repositorio remoto.
 
-D. Cuando quiero combinar un repositorio remoto con uno local.
+- [ ] Un merge forzado de mi master al master de producción.
 
-**En un repositorio público en GitHub, ¿qué pueden hacer los colaboradores?**
-
-Elige la respuesta correcta
-
-A. Solo hacer pull requests y con permiso del dueño hacer push/pull, crear ramas, etc.
-
-B. Ver el código y clonarlo, pero no editarlo.
-
-C. Crear ramas y trabajar sobre ellas, pero no sobre master.
-
-D. Hacer cambios al repositorio, hacer push/pull, crear ramas, etc.
-
-**¿Qué guarda Git?**
+### **12. Cuando hago un *fork* de un proyecto en GitHub, ¿lo que logro es?**
 
 Elige la respuesta correcta
 
-A. Git no guarda nada. Es sólo una referencia.
+- [ ] Copiar la versión más reciente del master de un repositorio, sin su historia anterior y así empezar desde cero mi propio proyecto.
 
-B. Los textos de mensajes a los que hago “commit”.
+- [ ] Copiar la rama master de un repositorio público y toda su historia anterior, pero no otras ramas a menos que las especifique.
 
-C. Los cambios de los archivos de un proyecto.
+- [ ] Agregarme como colaborador de un repositorio remoto y poder hacer push/pull y modificaciones como colaborador a ese repositorio.
 
-D. Los archivos completos por cada versión de un proyecto.
+- [ ] Copiar un repositorio público a mis repositorios en GitHub, con todas sus ramas e historia anterior.
+
+### **13. ¿Las llaves públicas son?**
+
+Elige la respuesta correcta
+
+- [ ] Sistemas de cifrado básicos donde la misma llave puede cifrar y descifrar un mensaje.
+
+- [ ] Fáciles de compartir y sus mensajes imposibles de descifrar.
+
+- [ ] No compartibles y fáciles de descifrar.
+
+- [ ] Imposibles de descifrar e imposibles de compartir.
+
+### **14. ¿Cuándo deberías usar cherry-pick?**
+
+Elige la respuesta correcta
+
+- [ ] Cuando quiero los cambios de un commit pasado sin dañar la historia de la rama.
+
+- [ ] Al momento de fusionar un punto de una rama distinta al estado actual de la rama donde estoy.
+
+- [ ] Al traer un archivo viejo de un commit anterior, pero nada más.
+
+- [ ] Cuando quiero volver la rama a un punto del pasado y eso volverlo el HEAD.
+
+### **15. ¿Cuál es la diferencia entre git rm y git reset HEAD?**
+
+Elige la respuesta correcta
+
+- [ ] git reset head saca los archivos del repositorio. git rm saca los archivos de Staging.
+
+- [ ] Son lo mismo. git rm solo es un alias de git reset head.
+
+- [ ] git rm borra todos los commits y el historial donde aparezcan los archivos. git reset head también, pero guarda los últimos cambios en Staging.
+
+- [ ] git rm saca los archivos del repositorio y (opcionalmente) del disco duro. git reset head saca los archivos de Staging, pero no del disco duro.
+
+- [ ] git reset head borra el último commit. git rm también, pero guarda los últimos cambios en Staging.
+
+### **16. Cuando hay un conflicto entre archivos lo mejor es:**
+
+Elige la respuesta correcta
+
+- [ ] Crear una rama de experimento, arreglar ahí el conflicto, hacer commit y luego merge con la rama original.
+
+- [ ] Sacar de staging los archivos, recuperar de otra rama la versión buena, reagregar a staging y commit.
+
+- [ ] Analizar los conflictos tal como los reportó Git y elegir los cambios finales, luego commit.
+
+- [ ] Borrar los conflictos, hacer checkout o rebase, cambiar de rama o recuperar un commit anterior.
+
+### **17. Los cambios a un archivo que están en “staging” están en:**
+
+Elige la respuesta correcta
+
+- [ ] Un área temporal en memoria antes de llegar al repositorio.
+
+- [ ] En un servidor temporal de pruebas.
+
+- [ ] Ya en el repositorio, rastreados y confirmados.
+
+- [ ] Solo en tu disco, no están siendo rastreados por Git.
+
+### **18. El dueño de un repositorio al ver un pull request puede:**
+
+Elige la respuesta correcta
+
+- [ ] Publicarlo en el home de GitHub Pages.
+
+- [ ] Editarlo, aceptarlo, darle merge, comentarlo para pedir cambios.
+
+- [ ] Rechazarlo o aceptarlo, pero nada más.
+
+- [ ] Pedir cambios, solicitar autorización de merge.
+
+### **19. ¿Cuándo deberías hacer un merge?**
+
+Elige la respuesta correcta
+
+- [ ] Cuando quiero borrar una rama.
+
+- [ ] Cuando quiero fusionar los cambios de una rama con otra.
+
+- [ ] Cuando quiero enviar a producción un cambio final.
+
+- [ ] Cuando quiero combinar un repositorio remoto con uno local.
+
+### **20. En un repositorio público en GitHub, ¿qué pueden hacer los colaboradores?**
+
+Elige la respuesta correcta
+
+- [ ] Solo hacer pull requests y con permiso del dueño hacer push/pull, crear ramas, etc.
+
+- [ ] Ver el código y clonarlo, pero no editarlo.
+
+- [ ] Crear ramas y trabajar sobre ellas, pero no sobre master.
+
+- [ ] Hacer cambios al repositorio, hacer push/pull, crear ramas, etc.
+
+### **21. ¿Qué guarda Git?**
+
+Elige la respuesta correcta
+
+- [ ] Git no guarda nada. Es sólo una referencia.
+
+- [ ] Git guarda solo el código fuente.
+
+- [ ] Git guarda el historial completo de versiones de tu proyecto.
+
+- [ ] Git guarda solo los archivos de la última versión.
+
