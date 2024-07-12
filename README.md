@@ -13,7 +13,7 @@
 - [Git push, Git pull](#git-push-git-pull)
 - [Enlazar a repositorio remoto](#enlazar-a-repositorio-remoto) 
 - [Git tag, Git switch](#git-tag-git-switch)
-- [Navegar entre commits y tags](#navegar-entre-commits-y-tags)
+- [Navegar entre commits y tag](#navegar-entre-commits-y-tag)
 - [Git stash y Git stash pop](#git-stash-y-git-stash-pop) 
 - [Eliminar Ramas (Branches)](#eliminar-ramas-branches) 
 - [Git Fetch](#git-fetch)
